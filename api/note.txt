@@ -1,0 +1,7 @@
+To handle notifications and reminders efficiently without blocking the main application, asynchronous task processing is essential. Celery is a powerful task queue that integrates seamlessly with Django for this purpose.
+Why Celery?
+Asynchronous Execution: Perform tasks in the background without delaying HTTP responses.
+
+Scheduled Tasks: Schedule periodic tasks (e.g., daily reminders).
+
+Scalability: Handle a large number of tasks efficiently.
